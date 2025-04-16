@@ -117,13 +117,13 @@ const ImageCarousel: React.FC<CarouselProps> = ({
 	return (
 		<div
 			ref={carouselRef}
-			className="relative w-full overflow-hidden rounded-2xl"
+			className="relative w-full overflow-hidden rounded-2xl border border-gray-200"
 		>
-			<div className={`relative ${heightClasses} bg-gray-100`}>
+			<div className={`relative ${heightClasses} `}>
 				{isAboutPage && (
 					<button
 						onClick={togglePlay}
-						className="absolute left-4 top-4 transform -translate-y-1/2 bg-black/10 hover:bg-black/30 text-white rounded-full p-2 shadow-md z-10"
+						className="absolute left-4 top-8 transform -translate-y-1/2 bg-black/10 hover:bg-black/30 text-white rounded-full p-2 shadow-md z-10"
 					>
 						{isPlaying ? <Pause /> : <Play />}
 					</button>

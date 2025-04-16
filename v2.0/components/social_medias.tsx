@@ -10,10 +10,16 @@ export default function SocialMediaView({
 	mediaIcon: string;
 }) {
 	return (
-		<>
-			<Link href={mediaLink} target="_blank">
-				<img src={mediaIcon} alt={mediaName} />
-			</Link>
-		</>
+		<Link
+			href={mediaLink}
+			target="_blank"
+			className="w-12 h-12 flex items-center justify-center border border-gray-200 rounded-full hover:shadow-lg transition duration-300 ease-in-out"
+		>
+			<img
+				src={mediaIcon}
+				alt={mediaName}
+				className="w-10 h-10 object-contain"
+			/>
+		</Link>
 	);
 }

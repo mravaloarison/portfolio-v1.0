@@ -76,13 +76,16 @@ export default function Home() {
 							{SocialMediaLinks.map((SM) => (
 								<div
 									key={SM.name}
-									className="logo w-10 h-10 xl:w-14 xl:h-14 border border-gray-200 rounded-full p-1 hover:shadow-lg transition-transform"
+									className="flex flex-col items-center justify-center w-20 gap-1 logo"
 								>
 									<SocialMediaView
 										mediaName={SM.name}
 										mediaLink={SM.link}
 										mediaIcon={SM.icon}
 									/>
+									<div className="text-xs text-gray-600 text-center w-full">
+										{SM.name}
+									</div>
 								</div>
 							))}
 						</div>
