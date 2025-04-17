@@ -13,12 +13,12 @@ export default function SocialMediaView({
 		<Link
 			href={mediaLink}
 			target="_blank"
-			className="md:w-12 w-6 h-6 md:h-12 flex items-center justify-center border border-gray-200 rounded-full hover:shadow-lg transition duration-300 ease-in-out"
+			className="w-12 h-12 flex items-center justify-center border border-gray-200 rounded-full hover:shadow-lg transition duration-300 ease-in-out"
 		>
 			<img
 				src={mediaIcon}
 				alt={mediaName}
-				className="md:w-10 w-5 h-5 md:h-10 object-contain"
+				className="w-10 h-10 object-contain"
 			/>
 		</Link>
 	);

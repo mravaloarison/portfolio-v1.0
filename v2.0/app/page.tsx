@@ -65,7 +65,7 @@ export default function Home() {
 			<div className="flex flex-col gap-12">
 				<nav className="max-w-7xl mx-auto w-full">
 					<div className="flex justify-between items-center">
-						<div className="logo md:w-14 w-6 h-6 md:h-14 xl:w-20 xl:h-20 border border-gray-200 rounded-full p-1">
+						<div className="logo w-14 hidden md:flex h-14 xl:w-20 xl:h-20 border border-gray-200 rounded-full p-1">
 							<img
 								src="/IMG_6917.jpeg"
 								alt="Logo"
@@ -76,7 +76,7 @@ export default function Home() {
 							{SocialMediaLinks.map((SM) => (
 								<div
 									key={SM.name}
-									className="flex flex-col items-center justify-center w-12 md:w-20 gap-1 logo"
+									className="flex flex-col items-center justify-center w-16 md:w-20 gap-1 logo"
 								>
 									<SocialMediaView
 										mediaName={SM.name}
