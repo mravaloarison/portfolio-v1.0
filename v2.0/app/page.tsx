@@ -94,8 +94,7 @@ export default function Home() {
 
 				<section className="max-w-7xl mx-auto w-full text-gray-600 text-xl xl:text-2xl font-medium leading-relaxed">
 					<p className="intro">
-						My name is Rava. I will soon be graduating with a major
-						in{" "}
+						My name is Rava. I recently graduated with a major in{" "}
 						<span className="font-semibold text-black">
 							Computer Information Systems
 						</span>{" "}
@@ -111,9 +110,13 @@ export default function Home() {
 						>
 							Madagascar
 						</Link>
-						, where I had no coding background and where English
-						wasn't even my second language.
+						, where access to tech was limited and English wasn’t
+						even my second language. Despite those barriers, I
+						taught myself computer science out of a passion to
+						understand how technology works and how it can be used
+						to solve real-world problems.
 					</p>
+
 					<button
 						onClick={leavePage}
 						className="text-indigo-500 flex gap-2 items-center pt-8 xl:pt-12 intro hover:underline"

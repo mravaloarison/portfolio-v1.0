@@ -47,7 +47,7 @@ export default function Page() {
 				</h1>
 
 				<p className="pt-4">
-					My name is Rava. I will soon be graduating with a major in{" "}
+					My name is Rava. I recently graduated with a major in{" "}
 					<span className="font-semibold text-black">
 						Computer Information Systems
 					</span>{" "}
@@ -63,11 +63,15 @@ export default function Page() {
 					>
 						Madagascar
 					</Link>
-					, where I had no coding background and where English wasn't
-					even my second language.
+					, where access to tech was limited and English wasn’t even
+					my second language. Despite those barriers, I taught myself
+					computer science out of a passion to understand how
+					technology works and how it can be used to solve real-world
+					problems.
 				</p>
+
 				<p className="pt-4 pb-8">
-					I wasn’t born into tech — I pursued it out of curiosity,
+					I wasn’t born into tech, I pursued it out of curiosity,
 					passion, and pure determination.
 				</p>
 
@@ -88,7 +92,7 @@ export default function Page() {
 						poorest nation in the world
 					</span>
 					. There are very few globally known success stories from
-					Madagascar — I want to be one of them. Not for fame, but to{" "}
+					Madagascar, I want to be one of them. Not for fame, but to{" "}
 					<span className="font-semibold text-black">
 						inspire people from my homeland
 					</span>{" "}
