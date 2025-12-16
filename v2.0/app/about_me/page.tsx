@@ -46,33 +46,27 @@ export default function Page() {
 					My Journey
 				</h1>
 
-				<p className="pt-4">
-					My name is Rava. I recently graduated with a major in{" "}
+				<p className="py-4">
+					I am Mami, a recent graduate with a{" "}
 					<span className="font-semibold text-black">
-						Computer Information Systems
+						BS in Computer Information Systems
 					</span>{" "}
 					and a minor in{" "}
 					<span className="font-semibold text-black">
 						Mathematics
 					</span>
-					. I'm originally from{" "}
+					. I am a{" "}
 					<Link
 						href="https://en.wikipedia.org/wiki/Madagascar"
 						target="_blank"
 						className="text-indigo-600 underline"
 					>
-						Madagascar
+						Madagascan
 					</Link>
-					, where access to tech was limited and English wasn’t even
-					my second language. Despite those barriers, I taught myself
-					computer science out of a passion to understand how
-					technology works and how it can be used to solve real-world
-					problems.
-				</p>
-
-				<p className="pt-4 pb-8">
-					I wasn’t born into tech, I pursued it out of curiosity,
-					passion, and pure determination.
+					, and I taught myself programming out of a passion to
+					understand how technology works and how it can be used to
+					solve real-world problems before I moved to the United
+					States.
 				</p>
 
 				<ImageCarousel
@@ -87,17 +81,10 @@ export default function Page() {
 					Why I Do What I Do
 				</h2>
 				<p className="pt-4">
-					My country, Madagascar, is currently ranked as one of the{" "}
-					<span className="font-semibold text-black">
-						poorest nation in the world
-					</span>
-					. There are very few globally known success stories from
-					Madagascar, I want to be one of them. Not for fame, but to{" "}
-					<span className="font-semibold text-black">
-						inspire people from my homeland
-					</span>{" "}
-					to dream big, believe in themselves, and pursue tech or any
-					passion with all their heart.
+					Coding and technology excite me, they let me turn ideas into
+					reality and tackle challenges head-on. I love learning
+					something new every day, collaborating with awesome people,
+					and knowing that my work can make a positive impact.
 				</p>
 
 				<h2 className="pt-10 text-xl md:text-2xl font-bold text-black">
@@ -120,10 +107,10 @@ export default function Page() {
 						target="_blank"
 						className="text-indigo-600 underline"
 					>
-						10 hackathon wins
+						12 hackathon wins
 					</Link>
 					, I've earned over{" "}
-					<span className="font-semibold text-black">$9,000</span> in
+					<span className="font-semibold text-black">$3,000</span> in
 					prize money and connected with incredible teams and mentors.
 				</p>
 
@@ -146,6 +133,14 @@ export default function Page() {
 					</span>
 					. These connections have shaped who I am, and I hope to one
 					day give back even more.
+				</p>
+
+				<h2 className="pt-10 text-xl md:text-2xl font-bold text-black">
+					My Interests
+				</h2>
+				<p className="pt-4">
+					In my free time, I enjoy playing bass, piano, and guitar,
+					working out, and occasionally playing video games.
 				</p>
 			</div>
 		</div>
