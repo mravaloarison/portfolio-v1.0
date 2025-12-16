@@ -46,7 +46,7 @@ export default function Page() {
 					My Journey
 				</h1>
 
-				<p className="py-4">
+				<p className="pt-4 pb-6">
 					I am Mami, a recent graduate with a{" "}
 					<span className="font-semibold text-black">
 						BS in Computer Information Systems

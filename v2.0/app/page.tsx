@@ -94,27 +94,26 @@ export default function Home() {
 
 				<section className="max-w-7xl mx-auto w-full text-gray-600 text-xl xl:text-2xl font-medium leading-relaxed">
 					<p className="intro">
-						My name is Rava. I recently graduated with a major in{" "}
+						I am Mami, a recent graduate with a{" "}
 						<span className="font-semibold text-black">
-							Computer Information Systems
+							BS in Computer Information Systems
 						</span>{" "}
 						and a minor in{" "}
 						<span className="font-semibold text-black">
 							Mathematics
 						</span>
-						. I'm originally from{" "}
+						. I am a{" "}
 						<Link
 							href="https://en.wikipedia.org/wiki/Madagascar"
 							target="_blank"
 							className="text-indigo-600 underline"
 						>
-							Madagascar
+							Madagascan
 						</Link>
-						, where access to tech was limited and English wasn’t
-						even my second language. Despite those barriers, I
-						taught myself computer science out of a passion to
+						, and I taught myself programming out of a passion to
 						understand how technology works and how it can be used
-						to solve real-world problems.
+						to solve real-world problems before I moved to the
+						United States.
 					</p>
 
 					<button

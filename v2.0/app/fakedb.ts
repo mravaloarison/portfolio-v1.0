@@ -46,7 +46,6 @@ export const projects = [
 			"/FitFinder8.png",
 			"/FitFinder9.png",
 			"/FitFinder10.png",
-			
 		],
 		githubLink: "https://github.com/mravaloarison/IT-495/blob/main/do_not_touch/README.md",
 		liveLink: "https://fit--finder.vercel.app/",
@@ -297,7 +296,6 @@ export const about_me_pics = [
 	"/frenz15.jpeg",
 	"/frenz16.jpeg",
 	"/frenz3.jpeg",
-	"/frenz.HEIC",
 	"/frenz4.jpeg",
 	"/frenz5.jpeg",
 	"/frenz7.jpeg",
