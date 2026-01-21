@@ -22,35 +22,7 @@ export const SocialMediaLinks = [
 ];
 
 export const projects = [
-	{
-		title: "FitFinder",
-		description:
-		"Built it to explore and experiment with Google's ecosystem — including Firebase Auth, Firestore, Gemini AI, and Google Places API.",
-		year: "April 2025",
-		technologies: [
-			"Firebase Auth",
-			"Firestore",
-			"Gemini API",
-			"Google Maps API",
-			"Typescript",
-		],
-		screenshots: [
-			"/FitFinder.png",
-			"/FitFinder1.png",
-			"/FitFinder2.png",
-			"/FitFinder3.png",
-			"/FitFinder4.png",
-			"/FitFinder5.png",
-			"/FitFinder6.png",
-			"/FitFinder7.png",
-			"/FitFinder8.png",
-			"/FitFinder9.png",
-			"/FitFinder10.png",
-		],
-		githubLink: "https://github.com/mravaloarison/IT-495/blob/main/do_not_touch/README.md",
-		liveLink: "https://fit--finder.vercel.app/",
-		note: "a",
-	},
+	
 	{
         title: "Green",
         description:
