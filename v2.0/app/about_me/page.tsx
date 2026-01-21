@@ -15,7 +15,7 @@ export default function Page() {
 		gsap.fromTo(
 			".main",
 			{ x: 10, opacity: 0 },
-			{ x: 0, duration: 0.2, opacity: 1 }
+			{ x: 0, duration: 0.2, opacity: 1 },
 		);
 	});
 
@@ -63,10 +63,8 @@ export default function Page() {
 					>
 						Madagascan
 					</Link>
-					, and I taught myself programming out of a passion to
-					understand how technology works and how it can be used to
-					solve real-world problems before I moved to the United
-					States.
+					, and I taught myself programming before I moved to the
+					United States.
 				</p>
 
 				<ImageCarousel
@@ -77,29 +75,29 @@ export default function Page() {
 					isAboutPage={true}
 				/>
 
-				<h2 className="pt-10 text-xl md:text-2xl font-bold text-black">
-					Why I Do What I Do
-				</h2>
 				<p className="pt-4">
-					Coding and technology excite me, they let me turn ideas into
-					reality and tackle challenges head-on. I love learning
-					something new every day, collaborating with awesome people,
-					and knowing that my work can make a positive impact.
+					Coding and technology excite me, I love learning something
+					new every day, collaborating with other people, and knowing
+					that my work can make a positive impact.
 				</p>
 
 				<h2 className="pt-10 text-xl md:text-2xl font-bold text-black">
 					My Hackathon Journey
 				</h2>
 				<p className="pt-4">
-					As an international student in the U.S., I faced barriers to
-					internships due to{" "}
+					As an international student at a non–brand-name university,
+					I didn’t have the reputation advantage or easy access to
+					internships. Because of{" "}
 					<span className="font-semibold text-black">
-						visa and hiring restrictions
+						visa, SSN, hiring restrictions
 					</span>
-					. Instead of giving up, I turned to{" "}
+					, and my school limiting off-campus work; even getting
+					on-campus jobs was difficult. Instead of giving up, I turned
+					to{" "}
 					<span className="font-semibold text-black">hackathons</span>{" "}
 					to learn and gain real-world experience.
 				</p>
+
 				<p className="pt-4">
 					Through{" "}
 					<Link
@@ -110,13 +108,10 @@ export default function Page() {
 						12 hackathon wins
 					</Link>
 					, I've earned over{" "}
-					<span className="font-semibold text-black">$3,000</span> in
+					<span className="font-semibold text-black">$4,000</span> in
 					prize money and connected with incredible teams and mentors.
 				</p>
 
-				<h2 className="pt-10 text-xl md:text-2xl font-bold text-black">
-					Community Matters
-				</h2>
 				<p className="pt-4">
 					What I value most about the{" "}
 					<span className="font-semibold text-black">
@@ -131,16 +126,16 @@ export default function Page() {
 					<span className="text-black font-bold">
 						friends from all over the world
 					</span>
-					. These connections have shaped who I am, and I hope to one
-					day give back even more.
+					.
 				</p>
 
 				<h2 className="pt-10 text-xl md:text-2xl font-bold text-black">
 					My Interests
 				</h2>
 				<p className="pt-4">
-					In my free time, I enjoy playing bass, piano, and guitar,
-					working out, and occasionally playing video games.
+					In my free time, I enjoy playing the bass, piano, guitar,
+					chess, working out, reading manga, watching anime, and
+					occasionally playing video games.
 				</p>
 			</div>
 		</div>

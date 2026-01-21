@@ -18,7 +18,7 @@ export default function Home() {
 		gsap.fromTo(
 			".main",
 			{ x: 10, opacity: 0 },
-			{ x: 0, duration: 0.2, opacity: 1 }
+			{ x: 0, duration: 0.2, opacity: 1 },
 		);
 
 		gsap.from(".logo", {
@@ -93,7 +93,7 @@ export default function Home() {
 				</nav>
 
 				<section className="max-w-7xl mx-auto w-full text-gray-600 text-xl xl:text-2xl font-medium leading-relaxed">
-					<p className="intro">
+					<p className="pt-4 pb-6">
 						I am Mami, a recent graduate with a{" "}
 						<span className="font-semibold text-black">
 							BS in Computer Information Systems
@@ -110,9 +110,7 @@ export default function Home() {
 						>
 							Madagascan
 						</Link>
-						, and I taught myself programming out of a passion to
-						understand how technology works and how it can be used
-						to solve real-world problems before I moved to the
+						, and I taught myself programming before I moved to the
 						United States.
 					</p>
 
