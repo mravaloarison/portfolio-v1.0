@@ -1,6 +1,6 @@
 import { technologies } from "@/app/fakedb";
 import ImageCarousel from "./csls";
-import { Link2, PlayCircle } from "lucide-react";
+import { Link2 } from "lucide-react";
 import gsap from "gsap";
 import { useRouter } from "next/navigation";
 
@@ -22,7 +22,6 @@ export default function ProjectCard({
 	ts,
 	screenshots,
 	githubLink,
-	liveLink,
 	note,
 }: {
 	title: string;
@@ -31,7 +30,6 @@ export default function ProjectCard({
 	ts: string[];
 	screenshots: string[];
 	githubLink: string;
-	liveLink?: string;
 	note?: string;
 }) {
 	const router = useRouter();
@@ -113,21 +111,6 @@ export default function ProjectCard({
 				<p className="text-lg text-gray-500 font-medium leading-snug truncate">
 					{description}
 				</p>
-
-				{liveLink && (
-					<a
-						href={liveLink}
-						target="_blank"
-						rel="noopener noreferrer"
-						className="flex gap-2 items-center w-fit text-sm font-semibold text-blue-500"
-					>
-						<div className="relative flex items-center justify-center">
-							<span className="absolute inline-flex h-5 w-5 animate-ping rounded-full bg-blue-400 opacity-75"></span>
-							<PlayCircle className="relative text-blue-600 w-5 h-5" />
-						</div>
-						Live Site
-					</a>
-				)}
 
 				<div className="flex flex-wrap gap-2.5">
 					{newTechnologies().map((tech) => (

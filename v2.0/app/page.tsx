@@ -137,7 +137,6 @@ export default function Home() {
 								ts={project.technologies}
 								githubLink={project.githubLink}
 								screenshots={project.screenshots || []}
-								liveLink={project.liveLink}
 								note={project.note}
 							/>
 						))}

@@ -22,7 +22,6 @@ export const SocialMediaLinks = [
 ];
 
 export const projects = [
-	
 	{
         title: "Green",
         description:
