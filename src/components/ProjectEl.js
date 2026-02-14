@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Sheet, Typography } from "@mui/joy";
+import { Box, Button, Grid, Typography } from "@mui/joy";
 import { ListOfTechnologies } from "./FakeDb";
 import Technology from "./Technology";
 import { useState } from "react";

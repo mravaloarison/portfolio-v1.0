@@ -52,6 +52,7 @@ export default function ModalProjectDetail({ name }) {
 				<Button
 					startDecorator={
 						<img
+							alt=""
 							width="20"
 							height="20"
 							src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000"
